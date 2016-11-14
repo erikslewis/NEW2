@@ -38,9 +38,9 @@ function isTwoCards() {
 	
 	console.log(this.getAttribute('data-card'));
 	if (this.getAttribute('data-card') === 'king') {
-		this.innerHTML = "<img src='http://i.imgur.com/bnuv5Im.png'>"; 
+		this.innerHTML = "<img src='file:///Users/Erik/Fundamentals/git/src/dd17cb0f0e436fa60ace35306478a32d.png'>"; 
 	} else {
-		this.innerHTML = "<img src='http://i.imgur.com/v6buNt2.png'>"; 
+		this.innerHTML = "<img src='file:///Users/Erik/Fundamentals/git/src/15e43a712ac44407d23c437b0a5b43bc.png'>"; 
 	}
  
   if (cardsInPlay.length === 2) {
